@@ -1,8 +1,9 @@
 name: build_image
 on:
   workflow_dispatch:
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
+    paths: [src]
 jobs:
   build:
     name: Build
