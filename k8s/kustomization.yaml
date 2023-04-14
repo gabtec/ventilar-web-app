@@ -8,4 +8,4 @@ namespace: ventilar
 images:
   - name: ventilar-app
     newName: gabtec/test-k8s
-    newTag: github-action-will-set-this-up
+    newTag: latest
