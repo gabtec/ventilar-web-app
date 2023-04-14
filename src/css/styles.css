@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gt_home_container {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: aquamarine;
+}
+
+.gt_logo {
+  background-image: url('../assets/xgeeks_logo_member_white.svg');
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 100px;
+
+  margin: 0 auto;
+  align-content: center;
+}
+
+.gt_title_big {
+  font-size: 5rem;
+}
