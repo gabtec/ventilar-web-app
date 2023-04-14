@@ -35,7 +35,6 @@ jobs:
         run: |
           cd k8s
           kustomize edit set image ventilar-app=gabtec/test-k8s:${GITHUB_SHA}
-          cat kustomization.yaml
       - name: Commit changes
         run: |
           git config --local user.email "actions@github.com"

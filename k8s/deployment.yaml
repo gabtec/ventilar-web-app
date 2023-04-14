@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -13,18 +14,6 @@ spec:
     spec:
       containers:
         - name: ventilar-app
-          image: gabtec/test-k8s
+          image: ventilar-app #the name on Kustomize images list
           ports:
             - containerPort: 80
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: ventilar-app
-spec:
-  selector:
-    app: ventilar-app
-  type: LoadBalancer
-  ports:
-    - port: 80
-      targetPort: 80
