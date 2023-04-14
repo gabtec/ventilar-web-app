@@ -18,7 +18,8 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: gabtec/test-k8s:latest, gabtec/test-k8s:${{ github.sha }}
+          tags: gabtec/test-k8s:${{ github.sha }}
+          # tags: gabtec/test-k8s:latest, gabtec/test-k8s:${{ github.sha }}
   deploy:
     name: Deploy
     runs-on: ubuntu-22.04
