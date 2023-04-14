@@ -8,4 +8,4 @@ namespace: ventilar
 images:
   - name: ventilar-app
     newName: gabtec/test-k8s
-    newTag: latest
+    newTag: 4dcd550eb6154e5fa1ebb4c1d7ffd0044093370e
