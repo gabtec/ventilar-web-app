@@ -1,3 +1,10 @@
+:root {
+  --aws-color: #ec7211;
+  --azu-color: #007fff;
+  --gcp-color: blue;
+  --oci-color: rgb(177, 29, 29);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +16,8 @@
   min-height: 100dvh;
   display: grid;
   grid-template-rows: 1fr auto;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  background-color: var(--aws-color);
 }
 
 .gt_logo {
