@@ -1,12 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 namespace: ventilar
 
 images:
-  - name: ventilar-app
-    newName: gabtec/test-k8s
-    newTag: 1d5ea197182952e5b84df1aabd3eac6bc95ce542
+- name: ventilar-app
+  newName: gabtec/test-k8s
+  newTag: 083faa54a76681856fd5678a8ddebcf1e85b9ecf
