@@ -17,7 +17,7 @@
   display: grid;
   grid-template-rows: 1fr auto;
   /* background-color: aquamarine; */
-  background-color: var(--azu-color);
+  background-color: var(--aws-color);
 }
 
 .gt_logo {
